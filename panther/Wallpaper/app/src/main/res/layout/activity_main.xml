@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:onClick="onClick"
+    tools:context="com.phyte.sanraphindustries.wallpaper.SetWallpaper">
+    <ImageView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bakground"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#cc333333"
+        android:gravity="bottom"
+        android:text="@string/preview"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
